@@ -1,0 +1,39 @@
+<mvc:View xmlns="sap.m" xmlns:mvc="sap.ui.core.mvc" xmlns:core="sap.ui.core"
+	xmlns:l="sap.ui.layout" xmlns:f="sap.ui.layout.form">
+	<ScrollContainer height="calc(100% - 10em)" horizontal="false"
+		vertical="true">
+<!--
+		<VBox class="sapUiSmallMarginBegin">
+			<items>
+				<core:HTML
+					content="&lt;div class=&quot;fb-page&quot; data-href=&quot;https://www.facebook.com/AnapanahalliLakshmi/&quot; data-small-header=&quot;false&quot; data-adapt-container-width=&quot;true&quot; data-hide-cover=&quot;false&quot; data-show-facepile=&quot;false&quot;&gt;&lt;blockquote cite=&quot;https://www.facebook.com/AnapanahalliLakshmi/&quot; class=&quot;fb-xfbml-parse-ignore&quot;&gt;&lt;a href=&quot;https://www.facebook.com/AnapanahalliLakshmi/&quot;&gt;Shri Anapanhalli Maha Lakshmi Temple&lt;/a&gt;&lt;/blockquote&gt;&lt;/div&gt;"></core:HTML>
+			</items>
+		</VBox>
+-->
+		<List>
+			<items>
+				<ObjectListItem title="{i18n>addressLabel}" number="9008061251">
+					<attributes>
+						<ObjectAttribute text="{i18n>addressTxt1}" />
+						<ObjectAttribute text="{i18n>addressTxt2}" />
+						<ObjectAttribute text="{i18n>addressTxt3}" />
+						<ObjectAttribute text="{i18n>emailLabel} : anupanahallilakshmi@gmail.com" />
+					</attributes>
+				</ObjectListItem>
+
+
+				<ObjectListItem title="{i18n>roleTxt1}"
+					number="{i18n>trustHeadPersName}">
+				</ObjectListItem>
+
+				<ObjectListItem title="{i18n>roleTxt2}" number="{i18n>archakaPersName}">
+				</ObjectListItem>
+
+				<ObjectListItem title="{i18n>websiteLabel}" number="{i18n>websitePersName}">
+				</ObjectListItem>
+
+			</items>
+		</List>
+
+	</ScrollContainer>
+</mvc:View>

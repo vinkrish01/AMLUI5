@@ -1,0 +1,47 @@
+/* Enter your custom styles here */
+
+.amlPagetitle {
+    font-size: 1.6rem !important;
+    color: white !important;
+}
+
+.mainPageTitle .sapMTitle span {
+    font-size: 2em;
+    font-family: cursive;
+}
+
+.mainPageTitle .sapMBarPH {
+    margin-top: 1.5em;
+}
+
+.amlBar {
+    height: 6em;
+    background-image: url(../images/header.png);
+}
+
+.amlBar .sapMLnk {
+    color: white !important;
+    font-family: cursive;
+}
+
+.sapMBarPH {
+    height: 6rem;
+}
+
+/*facebook style*/
+.fb_iframe_widget span {
+    overflow: initial !important;
+}
+
+.fb_iframe_widget iframe {
+    width: 340px !important;
+    height: 500px !important;
+}
+
+.amlLangButton {
+   background: white;
+}
+
+.amlTrustHeading {
+   font-size: 1.2rem;
+}
